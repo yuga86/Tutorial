@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/lblDriverUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_username"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/fldDriveruserName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/lblDriverName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_name"/>
+
+    <EditText
+        android:id="@+id/fldDriverName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"/>
+
+    <TextView
+        android:id="@+id/lblpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_password"/>
+
+    <EditText
+        android:id="@+id/fldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/lblCnfPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_cnfpassword"/>
+
+    <EditText
+        android:id="@+id/fldCnfPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/btn_signup"/>
+
+</LinearLayout>
